@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clarity | Don't waste 30 days.</title>
+    <meta
+      name="description"
+      content="Clarity helps indie developers evaluate SaaS ideas before writing code with a transparent 0-100 score."
+    />
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+    <meta name="theme-color" content="#000000" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar container fade-in">
+      <a class="brand" href="#hero" aria-label="Clarity home">
+        <img src="assets/clarity-logo.jpg" alt="Clarity logo" />
+      </a>
+      <a class="join-link" href="#waitlist">Join</a>
+    </header>
+
+    <main>
+      <section id="hero" class="hero container fade-in">
+        <img class="hero-logo" src="assets/clarity-logo.jpg" alt="Clarity" />
+        <h1>Don&rsquo;t waste 30 days.</h1>
+        <p>
+          Clarity helps indie developers evaluate SaaS ideas before writing code
+          &mdash; with a transparent 0&ndash;100 score.
+        </p>
+
+        <form
+          id="waitlist"
+          class="waitlist"
+          action="https://formspree.io/f/xaqdolpa"
+          method="post"
+        >
+          <input type="hidden" name="subject" value="New Clarity waitlist signup" />
+          <input type="hidden" name="source" value="hero" />
+          <input
+            type="text"
+            name="_gotcha"
+            tabindex="-1"
+            autocomplete="off"
+            class="sr-only"
+            aria-hidden="true"
+          />
+          <label for="email-hero" class="sr-only">Email</label>
+          <input
+            id="email-hero"
+            name="email"
+            type="email"
+            placeholder="you@domain.com"
+            required
+          />
+          <button type="submit" class="btn btn-primary">Join the waitlist</button>
+          <a class="btn btn-outline" href="#demo-report">View a demo report</a>
+          <p class="form-feedback" aria-live="polite"></p>
+        </form>
+        <small>No spam. Unsubscribe anytime.</small>
+      </section>
+
+      <section class="section container fade-in">
+        <h2>Too many ideas. Not enough clarity.</h2>
+        <p>
+          You start building.<br />
+          Two weeks later, you&rsquo;re unsure.<br />
+          Clarity gives you a structured evaluation so you know what to fix &mdash;
+          or what to drop.
+        </p>
+      </section>
+
+      <section class="section container fade-in">
+        <h2>How it works</h2>
+        <div class="cards three-cols">
+          <article class="card">
+            <span class="step">1</span>
+            <h3>Describe your idea</h3>
+            <p>Problem, target, monetization.</p>
+          </article>
+          <article class="card">
+            <span class="step">2</span>
+            <h3>Get a transparent score</h3>
+            <p>0&ndash;100 with a clear breakdown.</p>
+          </article>
+          <article class="card">
+            <span class="step">3</span>
+            <h3>See what to improve</h3>
+            <p>Critical points and concrete actions.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section container fade-in">
+        <h2>A transparent strength score</h2>
+        <ul class="clean-list">
+          <li>Problem clarity</li>
+          <li>Target precision</li>
+          <li>Differentiation</li>
+          <li>Feasibility</li>
+          <li>Monetization &amp; distribution</li>
+        </ul>
+        <p class="tight">No vague feedback. Just structured analysis.</p>
+      </section>
+
+      <section class="section container fade-in">
+        <h2>Decide fast</h2>
+        <p>
+          After the report you can Save the idea or Kill it (reversible).<br />
+          Saved ideas can later generate a focused MVP roadmap (coming soon).
+        </p>
+      </section>
+
+      <section class="section container fade-in">
+        <h2>Built for indie devs</h2>
+        <ul class="clean-list">
+          <li>Solo builders</li>
+          <li>Indie hackers</li>
+          <li>Side-project founders</li>
+          <li>People who think before they code</li>
+        </ul>
+      </section>
+
+      <section id="demo-report" class="section container fade-in">
+        <h2>Demo report (mock)</h2>
+        <div class="report">
+          <div class="report-head">
+            <p>Strength Score</p>
+            <strong>74 / 100</strong>
+          </div>
+          <div class="score-grid">
+            <div><span>Problem</span><b>82</b></div>
+            <div><span>Target</span><b>61</b></div>
+            <div><span>Differentiation</span><b>69</b></div>
+            <div><span>Feasibility</span><b>79</b></div>
+            <div><span>Monetization &amp; Distribution</span><b>72</b></div>
+          </div>
+          <div class="report-body">
+            <h3>Main critical points</h3>
+            <ul>
+              <li>Target segment is still too broad.</li>
+              <li>Distribution channel is not yet validated.</li>
+            </ul>
+            <h3>Actions to improve</h3>
+            <ul>
+              <li>Narrow to one persona and one pain level.</li>
+              <li>Run 10 interviews with concrete willingness-to-pay questions.</li>
+              <li>Test one acquisition channel for 14 days before build.</li>
+            </ul>
+            <p class="honest">Honest take: promising idea, but not ready to build blindly.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section container cta-final fade-in">
+        <h2>Clarity before code.</h2>
+        <p>Join early access and be the first to try Clarity.</p>
+        <form
+          class="waitlist"
+          action="https://formspree.io/f/xaqdolpa"
+          method="post"
+        >
+          <input type="hidden" name="subject" value="New Clarity waitlist signup" />
+          <input type="hidden" name="source" value="footer" />
+          <input
+            type="text"
+            name="_gotcha"
+            tabindex="-1"
+            autocomplete="off"
+            class="sr-only"
+            aria-hidden="true"
+          />
+          <label for="email-footer" class="sr-only">Email</label>
+          <input
+            id="email-footer"
+            name="email"
+            type="email"
+            placeholder="you@domain.com"
+            required
+          />
+          <button type="submit" class="btn btn-primary">Join the waitlist</button>
+          <p class="form-feedback" aria-live="polite"></p>
+        </form>
+      </section>
+    </main>
+
+    <footer class="footer container fade-in">
+      <p>&copy; Clarity</p>
+      <nav>
+        <a href="#">Privacy</a>
+        <a href="#">Terms</a>
+        <a href="#">X/Twitter</a>
+      </nav>
+    </footer>
+    <script>
+      const forms = document.querySelectorAll('.waitlist');
+
+      forms.forEach((form) => {
+        const submitButton = form.querySelector('button[type="submit"]');
+        const feedback = form.querySelector('.form-feedback');
+
+        form.addEventListener('submit', async (event) => {
+          event.preventDefault();
+
+          submitButton.disabled = true;
+          submitButton.textContent = 'Submitting...';
+          feedback.textContent = '';
+          feedback.className = 'form-feedback';
+
+          try {
+            const formData = new FormData(form);
+            const emailValue = (formData.get('email') || '').toString().trim();
+
+            if (emailValue) {
+              // Helps Formspree target autoresponders consistently.
+              formData.set('_replyto', emailValue);
+            }
+
+            const response = await fetch(form.action, {
+              method: 'POST',
+              body: formData,
+              headers: { Accept: 'application/json' }
+            });
+
+            const data = await response.json().catch(() => ({}));
+
+            if (response.ok) {
+              form.reset();
+              feedback.textContent = "You're in. Redirecting...";
+              feedback.classList.add('is-success');
+              window.setTimeout(() => {
+                window.location.href = 'thanks.html';
+              }, 500);
+            } else {
+              const errorMessage =
+                data?.errors?.[0]?.message || 'Something went wrong. Try again in a minute.';
+
+              if (errorMessage.toLowerCase().includes('already')) {
+                feedback.textContent = 'This email is already on the waitlist.';
+              } else {
+                feedback.textContent = errorMessage;
+              }
+              feedback.classList.add('is-error');
+            }
+          } catch (error) {
+            feedback.textContent = 'Network error. Check connection and try again.';
+            feedback.classList.add('is-error');
+          } finally {
+            submitButton.disabled = false;
+            submitButton.textContent = 'Join the waitlist';
+          }
+        });
+      });
+    </script>
+  </body>
+</html>
